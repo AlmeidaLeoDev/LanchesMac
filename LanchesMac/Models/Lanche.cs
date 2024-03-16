@@ -13,7 +13,7 @@ namespace LanchesMac.Models
         [Display(Name = "Nome do Lanche")]
         [StringLength(50, MinimumLength = 10, ErrorMessage = "O {0} deve ter no mínimo {1} e no máximo {2} caracteres")]
         public string Nome { get; set; }
-        [Required(ErrorMessage = "A descrição do lanche deve ser informado")]
+        [Required(ErrorMessage = "A descrição do lanche deverá ser informado")]
         [Display(Name = "Descrição do Lanche")]
         [StringLength(200, MinimumLength = 20, ErrorMessage = "O {0} deve ter no mínimo {1} e no máximo {2} caracteres")]
         public string DescricaoCurta { get; set; }
